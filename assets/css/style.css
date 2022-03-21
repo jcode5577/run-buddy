@@ -98,11 +98,11 @@ footer a {
      border-color: #024e76
  }
  .hero-cta {
-   width 35%;
+   width: 35%;
    text-align: right;
    margin: 3.5%;
    color: #fff;
-   font: size 18px;
+   font size: 18px;
    line-height: 1.3;
  }
  .hero-cta h2 {
