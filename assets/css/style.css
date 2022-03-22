@@ -135,9 +135,7 @@ color: #fce138;
   padding: 10px 20px;
   font-size: 16px;
 }
-.intro {
-  text-align:center;
-}
+
 .steps h2{
   font-size: 55px;
   color:#024e76;
@@ -153,20 +151,20 @@ color: #fce138;
   width: 80%;
   font-size:20px;
   margin: 0 auto;
+  text-align:center;
 }
 .steps {
-  text-align:center;
   background:#fce138;
 }
 .section-title{
   font-size: 55px;
   color:#024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   border-color:#39a6b2;
-  display: inline-block;
-
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 .primary-border {
   border-color: #fce138;
@@ -213,13 +211,12 @@ flex: 1 12%;
 margin-right: 20px;
 }
 .step-text {
-flex: 10;
+flex: 12;
 }
 .step-img img {
 max-width: 100%;
 }
 .trainers {
-  text-align: center;
 
 }
 .trainer {
@@ -268,7 +265,6 @@ max-width: 100%;
   justify-content: space-around;
 }
 .contact {
-  text-align: center;
   background: #024e76;
 }
 .contact h2 {
@@ -299,4 +295,7 @@ max-width: 100%;
 
 .contact-info a {
   color: #fce138;
+}
+.flex-row {
+  display:flex;
 }
