@@ -173,6 +173,7 @@ footer a {
 .step h3{
     color: #024e76;
     font-size: 46px;
+    flex:1 30%;
 
   }
   
@@ -184,6 +185,9 @@ footer a {
  font-size: 26px;
  line-height: 1.5;
  color: #024e76; 
+}
+.step-info {
+  flex: 2 70%;
 }
 
   .trainers {
